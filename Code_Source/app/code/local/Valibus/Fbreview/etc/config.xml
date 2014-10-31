@@ -11,6 +11,16 @@
                 <class>Valibus_Fbreview_Helper</class>
             </valibus_fbreview>
         </helpers>
+        <blocks>
+            <valibus_fbreview>
+                <class>Valibus_Fbreview_Block</class>
+            </valibus_fbreview>
+            <rewiew>
+                <rewrite>
+                    <helper>Valibus_Fbreview_Block_Count</helper>
+                </rewrite>
+            </rewiew>
+        </blocks>
     </global>
     <adminhtml>
         <translate>
