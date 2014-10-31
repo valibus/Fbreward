@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Fbreview>
+            <version>0.0.1</version>
+        </Fbreview>
+    </modules>
+    <global>
+        <helpers>
+            <valibus_fbreview>
+                <class>Valibus_Fbreview_Helper</class>
+            </valibus_fbreview>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Valibus_Fbreview>
+                    <files>
+                        <default>Valibus_Fbreview.csv</default>
+                    </files>
+                </Valibus_Fbreview>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
