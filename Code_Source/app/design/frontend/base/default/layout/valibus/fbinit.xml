@@ -1,0 +1,7 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="valibus_fbreview/init" name="fbinit" as="fbinit" template="valibus/review/fbinit.phtml" output="toHtml"/>
+        </reference>
+    </default>
+</layout>
